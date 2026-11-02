@@ -6,7 +6,7 @@
 
 #define LED_PIN 8
 #define BUZZER_PIN 9
-#define TEMP_THRESHOLD 20.0
+#define TEMP_THRESHOLD 100.0
 
 DHT dht(DHTPIN, DHTTYPE);
 
